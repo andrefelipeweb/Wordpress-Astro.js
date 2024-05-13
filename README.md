@@ -10,7 +10,7 @@ Antes de iniciar, certifique-se de ter o seguinte software instalado em seu sist
 - npm ou yarn
 
 ## Configuração
-Siga estas etapas para configurar o projeto para desenvolvimento local:
+Para configurar o projeto para desenvolvimento local, siga estas etapas:
 
 1. Clone o repositório:
    ```bash
@@ -18,10 +18,12 @@ Siga estas etapas para configurar o projeto para desenvolvimento local:
    de um cd nome-da-pasta
 
 2. Navegue até a pasta do frontend e inicialize o Docker:
+   ```bash
    cd frontend
    docker-compose up --build
 
 3. Em um novo terminal, navegue até a pasta do backend e inicialize o Docker:
+   ```bash
    cd ../backend
    docker-compose up --build
 
